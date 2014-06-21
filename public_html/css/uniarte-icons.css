@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "uniarte";
+  src:url("../fonts/uniarte.eot");
+  src:url("../fonts/uniarte.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/uniarte.woff") format("woff"),
+    url("../fonts/uniarte.ttf") format("truetype"),
+    url("../fonts/uniarte.svg#uniarte") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "uniarte" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="uniarte-icon-"]:before,
+[class*=" uniarte-icon-"]:before {
+  font-family: "uniarte" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.uniarte-icon-social-facebook:before {
+  content: "a";
+}
+.uniarte-icon-social-linkedin:before {
+  content: "b";
+}
+.uniarte-icon-social-blogger:before {
+  content: "c";
+}
+.uniarte-icon-social-bing:before {
+  content: "d";
+}
+.uniarte-icon-social-picasa:before {
+  content: "e";
+}
+.uniarte-icon-social-twitter:before {
+  content: "g";
+}
+.uniarte-icon-social-tumblr:before {
+  content: "h";
+}
+.uniarte-icon-social-vimeo:before {
+  content: "f";
+}
+.uniarte-icon-social-windows:before {
+  content: "i";
+}
+.uniarte-icon-social-xbox:before {
+  content: "j";
+}
+.uniarte-icon-social-yahoo:before {
+  content: "k";
+}
+.uniarte-icon-social-skype:before {
+  content: "l";
+}
+.uniarte-icon-social-smashing-mag:before {
+  content: "m";
+}
+.uniarte-icon-social-hi5:before {
+  content: "n";
+}
+.uniarte-icon-social-digg:before {
+  content: "o";
+}
+.uniarte-icon-social-500px:before {
+  content: "p";
+}
+.uniarte-icon-shopping-cart:before {
+  content: "q";
+}
+.uniarte-icon-shopping-bag:before {
+  content: "r";
+}
+.uniarte-icon-shield:before {
+  content: "s";
+}
+.uniarte-icon-sheriff-badge:before {
+  content: "t";
+}
+.uniarte-icon-share:before {
+  content: "u";
+}
+.uniarte-icon-save:before {
+  content: "v";
+}
+.uniarte-icon-social-android:before {
+  content: "w";
+}
+.uniarte-icon-social-apple:before {
+  content: "x";
+}
+.uniarte-icon-social-behance:before {
+  content: "y";
+}
+.uniarte-icon-rewind-ten:before {
+  content: "z";
+}
+.uniarte-icon-social-evernote:before {
+  content: "A";
+}
+.uniarte-icon-social-medium:before {
+  content: "B";
+}
+.uniarte-icon-social-myspace:before {
+  content: "C";
+}
+.uniarte-icon-refresh:before {
+  content: "D";
+}
+.uniarte-icon-telephone:before {
+  content: "E";
+}
+.uniarte-icon-social-google-plus:before {
+  content: "F";
+}
